@@ -1,0 +1,66 @@
+.navbar1{
+    display: flex;
+    justify-content: flex-start;
+    height: 24px;
+    flex-direction: row;
+    font-size: 14px;
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    padding: 7px 0px 7px 20px;
+}
+
+.navbar1 p{
+    margin: 6px 3px 6px 10px;
+    cursor: pointer;
+}
+
+.navbar2 {
+    width: 100%;
+    height: 40px;
+    background-color: #3c3d42;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.red {
+    background-color: red;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    margin: 6px 3px 6px 10px;
+    cursor: pointer;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    margin: 6px 3px 6px 3px;
+    cursor: pointer;
+}
+
+.green {
+    background-color: green;  
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    margin: 6px 3px 6px 3px;
+    cursor: pointer;
+}
+
+.welcomeText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+
+
