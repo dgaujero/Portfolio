@@ -78,6 +78,26 @@
     display: flex;
 }
 
+.tabs ul{
+    list-style: none;
+    display: inline;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.tabs li {
+    float: left;
+    color: #adafb0;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tabs a{
+    text-decoration: none;
+    color: #adafb0!important;
+}
+
 .tab{
     color:#adafb0;
     padding: 5px;

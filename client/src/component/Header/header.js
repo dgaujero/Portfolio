@@ -1,9 +1,25 @@
 import React from 'react';
 import './header.css';
-import Main from '../Main/main.js'
+import Main from '../Main/main';
+import Home from '../Home/home';
+import About from '../About/about';
+import Contact from '../Contact/contact';
+import Skills from '../Skills/skills';
+import Projects from '../Projects/projects';
+import Github from '../Github/github';
+
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+  
 
 function Header(){
+
     return(
+        <Router>
         <div className='container'>
 
             <div className='section1'>
@@ -48,7 +64,7 @@ function Header(){
                 <div className='fileSection'>
                     <div className='fileWrapper'>
                         <div>
-                            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="transition transform duration-200 mr-1.5" style={{transform: "rotate(90deg);"}}><path fillRule="evenodd" clipRule="evenodd" d="M10.072 8.024L5.715 3.667l.618-.62L11 7.716v.618L6.333 13l-.618-.619 4.357-4.357z"></path></svg>
+                            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="transition transform duration-200 mr-1.5"><path fillRule="evenodd" clipRule="evenodd" d="M10.072 8.024L5.715 3.667l.618-.62L11 7.716v.618L6.333 13l-.618-.619 4.357-4.357z"></path></svg>
                         </div>
                         <div>
                             <h4>PORTFOLIO</h4>
@@ -60,17 +76,47 @@ function Header(){
 
             <div className='section3'>
                 <div className='tabs'>
-                    <div className='tab first'>Home</div>
+                    {/* <div className='tab first'>Home</div>
                     <div className='tab'>About</div>
                     <div className='tab'>Contact</div>
                     <div className='tab'>Skills</div>
                     <div className='tab'>Projects</div>
-                    <div className='tab'>GitHub</div>
+                    <div className='tab'>GitHub</div> */}
+                    <ul>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to='/about'>About</Link></li>
+                        <li><Link to='/contact'>Contact</Link></li>
+                        <li><Link to='/skills'>Skills</Link></li>
+                        <li><Link to='/projects'>Projects</Link></li>
+                        <li><Link to='/github'>Github</Link></li>
+                    </ul>
                 </div>
-                <Main></Main>
+                <Main>
+                    <Switch>
+                        <Route exact path='/'>
+                            <Home/>
+                        </Route>
+                        <Route exact path='/about'>
+                            <About/>
+                        </Route>
+                        <Route exact path='/contact'>
+                            <Contact/>
+                        </Route>
+                        <Route exact path='/skills'>
+                            <Skills/>
+                        </Route>
+                        <Route exact path='/projects'>
+                            <Projects/>
+                        </Route>
+                        <Route exact path='/github'>
+                            <Github/>
+                        </Route>
+                    </Switch>
+                </Main>
             </div>
 
         </div>
+        </Router>
     )
 };
 
