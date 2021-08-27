@@ -1,0 +1,16 @@
+.aboutWrapper img{
+    border-radius: 50%;
+    height: 135px;
+    width: 110px;
+}
+
+.aboutWrapper h1{
+    color: white;
+    font-family: monospace;
+}
+
+.aboutWrapper p{
+    color: white;
+    text-align: center;
+}
+

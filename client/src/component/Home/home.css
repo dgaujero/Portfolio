@@ -1,0 +1,73 @@
+.homeWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.firstSection{
+    width: 50%;
+}
+
+.firstSection .text{
+    font-size: 45px;
+    font-family: 'Azeret Mono', monospace;
+}
+
+.secondSection{
+    width: 50%;
+}
+
+.homeWrapper .text{
+    color: white;
+}
+
+.typewriter p {
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    margin: 0 auto;   
+    font-size: 30px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons ul a{
+    display: inline;
+    text-decoration: none;
+    color:white;
+}
+
+.buttons ul {
+    list-style-type: none;
+}
+
+.buttons li {
+    float: left;
+    color: #adafb0;
+    cursor: pointer;
+}
+
+.buttons .button{
+    font-family: monospace;
+    color: white;
+}
+
+.checkWork{
+    background-color: #01b5cc;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.reachOut{
+    border: 1px solid #01b5cc;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}

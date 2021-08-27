@@ -76,12 +76,6 @@ function Header(){
 
             <div className='section3'>
                 <div className='tabs'>
-                    {/* <div className='tab first'>Home</div>
-                    <div className='tab'>About</div>
-                    <div className='tab'>Contact</div>
-                    <div className='tab'>Skills</div>
-                    <div className='tab'>Projects</div>
-                    <div className='tab'>GitHub</div> */}
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to='/about'>About</Link></li>
