@@ -14,3 +14,21 @@
     flex: 1;
     padding: 1rem;
 }
+
+.socials{
+    text-align: left;
+    font-size: 20px;
+}
+
+.socials span{
+    color:#673ab7;
+}
+
+.socials .social span{
+    color: #673ab7;
+}
+
+.socials .social span a{
+    text-decoration: none;
+    color: #673ab7;
+}
