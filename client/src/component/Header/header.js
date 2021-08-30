@@ -77,7 +77,7 @@ function Header(){
             <div className='section3'>
                 <div className='tabs'>
                     <ul>
-                        <li><Link to="Portfolio/">Home</Link></li>
+                        <li><Link to="Portfolio">Home</Link></li>
                         <li><Link to='/about'>About</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
                         <li><Link to='/skills'>Skills</Link></li>
@@ -87,7 +87,7 @@ function Header(){
                 </div>
                 <Main>
                     <Switch>
-                        <Route exact path='/'>
+                        <Route exact path='/Portfolio'>
                             <Home/>
                         </Route>
                         <Route exact path='/about'>
