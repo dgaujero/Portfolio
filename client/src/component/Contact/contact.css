@@ -1,18 +1,16 @@
 .contactWrapper{
     display: flex;
     flex-direction: row;
-    align-items: center;
     text-align: center;
 }
 
 .socialsSection{
     flex: 1;
-    background-color: yellow;
     padding: 1rem;
+    color: white;
 }
 
 .formSection{
     flex: 1;
-    background-color: red;
     padding: 1rem;
 }
