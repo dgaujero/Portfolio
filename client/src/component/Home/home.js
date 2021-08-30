@@ -31,7 +31,6 @@ const About = () => {
 
             </div>
 
-            <div className='secondSection'></div>
         </div>
     )
 }

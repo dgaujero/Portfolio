@@ -5,16 +5,15 @@
 }
 
 .firstSection{
-    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .firstSection .text{
     font-size: 45px;
     font-family: 'Azeret Mono', monospace;
-}
-
-.secondSection{
-    width: 50%;
 }
 
 .homeWrapper .text{

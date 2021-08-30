@@ -1,3 +1,9 @@
+.aboutWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .aboutWrapper img{
     border-radius: 50%;
     height: 135px;

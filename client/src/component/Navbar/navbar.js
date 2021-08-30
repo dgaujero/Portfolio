@@ -4,7 +4,7 @@ import './navbar.css';
 function Navbar() {
     return(
         <div>
-            <div className='navbar1'>
+            {/* <div className='navbar1'>
             <img src="https://www.transparentpng.com/thumb/apple-logo/ZA6SCV-apple-logo-photos.png" alt="apple logo photos @transparentpng.com"/>
                 <p>Code</p>
                 <p>File</p>
@@ -16,7 +16,7 @@ function Navbar() {
                 <p>Tab</p>
                 <p>Window</p>
                 <p>Help</p>
-            </div>
+            </div> */}
 
             <div className='navbar2'>
 
