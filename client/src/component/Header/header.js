@@ -77,12 +77,12 @@ function Header(){
             <div className='section3'>
                 <div className='tabs'>
                     <ul>
-                        <li><Link to="Portfolio">Home</Link></li>
-                        <li><Link to='/about'>About</Link></li>
-                        <li><Link to='/contact'>Contact</Link></li>
-                        <li><Link to='/skills'>Skills</Link></li>
-                        <li><Link to='/projects'>Projects</Link></li>
-                        <li><Link to='/github'>Github</Link></li>
+                        <li><Link to="/Portfolio">Home</Link></li>
+                        <li><Link to='/Portfolio/about'>About</Link></li>
+                        <li><Link to='/Portfolio/contact'>Contact</Link></li>
+                        <li><Link to='/Portfolio/skills'>Skills</Link></li>
+                        <li><Link to='/Portfolio/projects'>Projects</Link></li>
+                        <li><Link to='/Portfolio/github'>Github</Link></li>
                     </ul>
                 </div>
                 <Main>
@@ -90,19 +90,19 @@ function Header(){
                         <Route exact path='/Portfolio'>
                             <Home/>
                         </Route>
-                        <Route exact path='/about'>
+                        <Route exact path='/Portfolio/about'>
                             <About/>
                         </Route>
-                        <Route exact path='/contact'>
+                        <Route exact path='/Portfolio/contact'>
                             <Contact/>
                         </Route>
-                        <Route exact path='/skills'>
+                        <Route exact path='/Portfolio/skills'>
                             <Skills/>
                         </Route>
-                        <Route exact path='/projects'>
+                        <Route exact path='/Portfolio/projects'>
                             <Projects/>
                         </Route>
-                        <Route exact path='/github'>
+                        <Route exact path='/Portfolio/github'>
                             <Github/>
                         </Route>
                     </Switch>
