@@ -22,8 +22,8 @@ const About = () => {
 
                 <div className='buttons'>
                     <ul>
-                        <li className='button checkWork'><Link to='/projects'>Check Out My Work</Link></li>
-                        <li className='button reachOut'><Link to='/contact'>Reach Out To Me</Link></li>
+                        <li className='button checkWork'><Link to='/Portfolio/projects'>Check Out My Work</Link></li>
+                        <li className='button reachOut'><Link to='/Portfolio/contact'>Reach Out To Me</Link></li>
                     </ul>
                 </div>
 
