@@ -11,7 +11,7 @@ const About = () => {
             </div>
 
             <div>
-                <img src={pic}></img>
+                <img src={pic} alt='profile'></img>
             </div>
 
             <div>
