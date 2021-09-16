@@ -14,7 +14,7 @@ const About = () => {
                 <img src={pic} alt='profile'></img>
             </div>
 
-            <div>
+            <div className='aboutMeText'>
                 <p>My name is Deion Aujero! I attended Seton Hall University in South Orange, NJ from 2015-2017 where I majored in Computer Science.
                 After 2 years at Seton Hall, I got into the financial industry where I became a financial representative and obtained my Series 6 and Series 63 to sell securites products in NJ.
                 After 2 years in the financial industry, I became passionate about coding again and wanted to resume my studying.

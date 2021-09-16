@@ -6,13 +6,13 @@ import rps from "../../images/rps.png";
 const Projects = () => {
   return (
     <div className="projectsContainer">
-      <div className='item'>
-                <img src={fitbms} alt='proj'></img>
-            </div>
-            <div className='item'>
-                <img src={rps} alt='proj'></img>
-            </div>
-            <div className='item'>I</div>
+      {/* <div className="item">
+        <img src={fitbms} alt="proj"></img>
+      </div>
+      <div className="item">
+        <img src={rps} alt="proj"></img>
+      </div>
+      <div className="item">I</div> */}
     </div>
   );
 };
